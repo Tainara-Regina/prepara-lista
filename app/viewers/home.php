@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="app/JavaScript/validação_dos_campos.js" type="text/javascript"></script>
   <link href="app/css/home.css" rel="stylesheet" type="text/css"/>
+  <link href="app/css/login_modal.css" rel="stylesheet" type="text/css"/>
   
   <script> 
       
@@ -93,7 +94,10 @@ $.ajax({
   
 </head>
     <body>
-        <div class="col-sm-12 menu_fixed"> 
+
+
+        <div class="col-sm-12 menu_fixed">
+        <p id="myBtn">Login</p> 
             <div class="menu ">
             <ul>
                 <a href="#vamos_começar"><li>Formatar Lista</li></a>
@@ -147,25 +151,23 @@ seja reconhecida. Exemplo de lista: </p>
              <div class="col-sm-12  instrucoes">
                 <p> Agora sua lista está pronta para ser utilizada na aplicação(Formata Lista versão BETA).</p>
             </div>
-                
-                
-                
-                
-                <div  class="col-sm-12 instrucoes margin">
-      <h3>Ao carregar a lista de usuário:</h3>
- <p>- No campo <b>Delimitador CSV </b>escolha a "virgula" como opção.</p>
-<p>- No campo <b>Codificação </b> escolha a opção "UTF-8".</p>
-<p>- O campo <b>Linha de pré-visualização</b> fica a seu critério.</p>
-    </div>
+                    
+                    <div  class="col-sm-12 instrucoes margin">
+           <h3>Ao carregar a lista de usuário:</h3>
+        <p>- No campo <b>Delimitador CSV </b>escolha a "virgula" como opção.</p>
+        <p>- No campo <b>Codificação </b> escolha a opção "UTF-8".</p>
+        <p>- O campo <b>Linha de pré-visualização</b> fica a seu critério.</p>
+                  </div>
                 
     <div class="col-sm-12 ">
         <img class="img-responsive center-block" src="app/viewers/img/configCarregarLista.png" alt=""/>
-        </div> 
-                
-                
-                
-        </div>
-        
+        </div>          
+           </div>
+     
+              <?php
+              include "login_modal/login_modal.html";
+              ?>
+
             <div name="vamos_começar" id="vamos_começar" class="col-sm-12 vamos_começar">
     
       <h1 class="text-center"> <img src="app/viewers/img/light-bulb (1).png" alt=""/>Vamos começar!</h1>

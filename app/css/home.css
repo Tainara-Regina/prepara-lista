@@ -47,7 +47,7 @@
           
            .vamos_começar h1 img{
              height: 100px;
-width: 100px;
+             width: 100px;
           }
           .instrucoes{
               background-color: #EEE5DE;
@@ -61,11 +61,16 @@ width: 100px;
           .instrucoes_conteiner img{
               margin-top: 30px;
               margin-bottom:80px; 
-height: 500px;
-width: 600px;
+              height: 500px;
+              width: 600px;
+                        }
+          
+          #myBtn{
+            float: right;
+            color: #ffffff;
+            margin: 20px;
+            cursor: pointer;
           }
-          
-          
           
           .menu{
               height: 30px;
