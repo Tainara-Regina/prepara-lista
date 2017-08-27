@@ -1,5 +1,5 @@
 <?php
-function render($viewer,$param){
+function render($viewer,$param = false){
     
     if (file_exists('app/viewers/'.$viewer.'.php')){
         

@@ -155,7 +155,7 @@
                 $nodeValue = str_replace("Û","û",$nodeValue);
                 
                 //FORÇO PARA TRANSFORMA O INICIO DE CADA PALAVRA EM MAIUSCULO 
-                 $nodeValue = ucwords(strtolower($nodeValue));
+                 // $nodeValue = ucwords(strtolower($nodeValue));
                 
                   $nodeValue= trim($nodeValue);
                  array_push(self::$arrayNomeAndSobrenome,$nodeValue);
