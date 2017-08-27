@@ -1,0 +1,34 @@
+username,password,firstname,lastname,course1,email,profile_field_CPF
+28164312827,sms,Ana,Paula Alexandre,fhfghfh,ana-morena-2@hotmail.com,28164312827
+13628099854,sms,Andreia,Cardoso Da Silva,fhfghfh,andreia_2007_acs@hotmail.com,13628099854
+33595650883,sms,Bruna,Alves Rodrigues,fhfghfh,bruna.alves23@yahoo.com.br,33595650883
+66635977449,sms,Cleide,Maria De Oliveira,fhfghfh,cleidemaria1900@gmail.com,66635977449
+35156779840,sms,Dayane,Costa Rodrigues,fhfghfh,dayane.r847@gmail.com,35156779840
+09105976855,sms,Deolinda,Simoes Dos Reis,fhfghfh,deosimoes_reis@hotmail.com,09105976855
+10339534826,sms,Edna,Cristna Da Silva,fhfghfh,rockedna@ig.com.br,10339534826
+34848000890,sms,Ercilia,Aparecida De Oliveira,fhfghfh,erciliaoliveira@yahoo.com.br,34848000890
+26581622869,sms,Gilciney,Andrade Rabello,fhfghfh,gillciney@yahoo.com.br,26581622869
+03116490503,sms,Laricia,Couto Fernandes,fhfghfh,laracouto05@gmail.com,03116490503
+36020491838,sms,Leticia,Luiz Dos Santos,fhfghfh,leticiall060@gmail.com,36020491838
+34867573850,sms,Lilian,Andressa Cipriano Oliveira,fhfghfh,uiris.familiaoliveira2011@gmail.com,34867573850
+13431837824,sms,Luana,De Oliveira Santos,fhfghfh,luanaoliveira72@gmail.com,13431837824
+30103241892,sms,Lucileine,Aleixo,fhfghfh,aleixolucileine@gmail.com,30103241892
+30705084809,sms,Maira,Cristina Pinheiro Da Silva,fhfghfh,mematheusheitor27@hotmail.com,30705084809
+33690777879,sms,Maria,José Rodrigues Martins,fhfghfh,maria.dab2@hotmail.com,33690777879
+13010202814,sms,Neuza,De Sousa Araujo,fhfghfh,ingridgjacob@hotmail.com,13010202814
+36129875851,sms,Raphael,De Oliveira Santos,fhfghfh,raphaelsantos.edu@hotmail.com,36129875851
+08457683870,sms,Rosana,Camilo Ferreira Silva,fhfghfh,r.osana_camilo@hotmail.com,08457683870
+24647094847,sms,Rosana,Lourenco Nunes,fhfghfh,rosana.lou@bol.com.br,24647094847
+18901686880,sms,Rosemeire,Caldeira Souza,fhfghfh,rosemeirecaldeirasouza@yahoo.com,18901686880
+13005020886,sms,Sandra,Regina Celotto Cerasso,fhfghfh,sandracelotto@yahoo.com.br,13005020886
+27557380819,sms,Selma,Vieira,fhfghfh,selmavieira.olga@gmail.com,27557380819
+32335239805,sms,Silmara,Maria De Lima,fhfghfh,silmara_lima_24@yahoo.com.br,32335239805
+30943691893,sms,Silvana,Menezes Marcolino,fhfghfh,silvanamarcolino@globomail.com,30943691893
+31673071880,sms,Sirlei,De Jesus Martins,fhfghfh,sirleimartins47@hotmail.com,31673071880
+27242299837,sms,Solange,De Jesus Silva,fhfghfh,solanginha.siilva@gmail.com,27242299837
+15408045854,sms,Suzete,Rita Da Silva Santos,fhfghfh,suzeteritadasilva@gmail.com,15408045854
+33315481890,sms,Tamara,Elis Santos Dos Reis,fhfghfh,tamaraelis@hotmail.com,33315481890
+37453463866,sms,Tamires,Mirele Da Silva,fhfghfh,mirele_tami@hotmail.com,37453463866
+36935064856,sms,Thamires,Dos Santos Ribeiro,fhfghfh,thamires.miri87@gmail.com,36935064856
+36173753839,sms,Thiago,Henrique Silva,fhfghfh,henriquesilvathiago@yahoo.com.br,36173753839
+35174728837,sms,Vanessa,Rodrigues De Souza Silva,fhfghfh,van.silvarodrigues398@gmail.com,35174728837

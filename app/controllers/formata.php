@@ -1,5 +1,4 @@
-
-      <?php
+<?php
 
  $senhaInicial = $_POST["senhaInicial"];
  $nomeBreveCurso = $_POST["nomeBreveCurso"];
@@ -12,19 +11,36 @@ if(isset($_POST["nomeGrupo"]) ){
  } else {
      $nomeGrupo = null;
  } 
- 
- //verifica se o usuario pussui cadastro
+
+ //isso foi só para fazer teste de conexão
+ // e verifica se o usuario pussui cadastro
  $buscaCadastro = new LogarUsuario;
 $buscaCadastro->verificar_existencia_de_usuario("tay@tay.com",'123123');
  $buscaCadastro->usuario;
 
-// preciso verificar se o usuario possui permissão
-
- print_r($buscaCadastro->usuario);
- exit();
+ // print_r($buscaCadastro->usuario);
+ // exit();
  
+//isso tambem foi só para fazer teste de conexão
+ if($buscaCadastro->usuario = false){
+  render("arquivoRealizeLogin");
+  exit();
+ }
+
+// isso é para fazer:
+// chamar aki metodo do controller de tratamento de acesso e permissao que verifica se o usuario
+// esta logado(este verifica de existe session criada com os dados do usuario) 
+//caso não esteja,p trocho a seguir precisa ser chamado:
+ // render("arquivoRealizeLogin");
+ //  exit();
+
+
+
+
+
  
  // faz a chamada do lado de fora para o metodo que inicia tudo
+ // de tido estiver ok,é o primeiro passo da aplicação
 $inicio= new Formata();
 $inicio->validate($arquivoFile,$senhaInicial,$nomeBreveCurso,$nomeGrupo); 
 
