@@ -1,0 +1,128 @@
+   body{
+           font-size: 16px;
+            background-color: #ffffff;
+      }
+      
+      .margin{
+          margin-top: 130px;
+          }
+      
+          
+          .status{
+              margin-top: 50px;
+              margin-bottom: 50px;
+              border: 2px solid black; 
+              height: 290px;
+              background-color: #ffffff;
+          }
+          
+          .status img{
+              height: 100px;
+              width: 100px;
+          }
+          
+          
+          .loader {
+              height: 60px !important;
+              width: 60px !important;
+              margin: 0 auto;
+          }
+          
+          .menu_fixed{
+              top:0px;
+              z-index: 999;
+              height: 60px;
+              background-color:#1C86EE;
+              position: fixed;
+              width: 100%;
+             
+          }
+          
+          
+          .vamos_começar{
+              padding-top: 120px;
+              padding-bottom: 200px;
+            background-color: #B4D2E7;
+          }
+          
+           .vamos_começar h1 img{
+             height: 100px;
+width: 100px;
+          }
+          .instrucoes{
+              background-color: #EEE5DE;
+          }
+          
+          .instrucoes_conteiner{
+               background-color:#ffffff;
+               padding-bottom:250px;
+          }
+          
+          .instrucoes_conteiner img{
+              margin-top: 30px;
+              margin-bottom:80px; 
+height: 500px;
+width: 600px;
+          }
+          
+          
+          
+          .menu{
+              height: 30px;
+               width: 400px;
+              position: relative;
+              margin: 0 auto;
+              top: 28px;
+              width: 500px;
+          }
+          
+          .menu ul li{
+              display: inline;
+              color: #ffffff;
+              padding-left: 35px;
+             font-size: 17px;
+           text-decoration: none;
+             color: #ffffff;
+          }
+          
+          .menu ul  a{
+              text-decoration: none;
+          }
+  
+          
+          .versao_beta{
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                width: 220px;
+                height: 25px;
+                padding-left: 10px;
+          }
+          
+            .versao_beta p{
+               width: 220px;
+               font-weight: bold;
+          }
+          
+          .sombra{
+              box-shadow: 3px 3px 20px black;
+          }
+          
+          
+          footer{
+              max-width:100%;
+              background-color: black;
+              height: 250px;
+          }
+          
+          
+          footer .ass{
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 12px;
+    bottom: 0px;
+    position: relative;
+    height: 30px;
+    width: 200px;
+    top: 200px;
+}

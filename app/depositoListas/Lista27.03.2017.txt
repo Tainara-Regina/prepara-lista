@@ -1,0 +1,6 @@
+username,password,firstname,lastname,course1,email,profile_field_CPF
+00000000111,sms,João,Carlos,klpm,aaaa@aaa.com,00000000111
+02222222222,sms,Maria,Ronalda,klpm,bbbb@bbb.com,02222222222
+03333333333,sms,Lucas,Cristiano,klpm,ccccc@cccc.co,03333333333
+04444444444,sms,Patricia,Mara,klpm,ddddd@ccc.com,04444444444
+05555555555,sms,Carla,Fabricio,klpm,eeeee@eeee.com,05555555555

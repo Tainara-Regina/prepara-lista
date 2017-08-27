@@ -1,0 +1,35 @@
+<?php 
+
+class DAO{
+
+	public $servername = "localhost";
+	public $username = "root";
+	public $password ='';
+	public $dbname = "formata_lista";
+	public static $conn;
+		
+ function __construct(){
+    $this->conexao();
+}
+
+
+public function conexao(){
+
+  if(is_null(self::$conn)){
+	 try {
+           self::$conn = new PDO("mysql:host=".$this->servername.";dbname=".$this->dbname,$this->username,$this->password); 
+           echo '';
+           }catch (Exception $ex) {
+               echo "Falha na conexão.Erro->$ex";
+                  }  
+             }
+        
+        
+ }
+}
+
+
+
+
+
+?>
