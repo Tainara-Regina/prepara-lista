@@ -1,31 +1,31 @@
 <?php
-
- $senhaInicial = $_POST["senhaInicial"];
+ session_start();
+  $senhaInicial = $_POST["senhaInicial"];
  $nomeBreveCurso = $_POST["nomeBreveCurso"];
  $arquivoFile = $_FILES["arquivoFile"]['tmp_name'];
  
+
 if(isset($_POST["nomeGrupo"]) ){
     $nomeGrupo = $_POST["nomeGrupo"];
- 
-     
+      
  } else {
      $nomeGrupo = null;
  } 
 
+
+
  //isso foi só para fazer teste de conexão
  // e verifica se o usuario pussui cadastro
- $buscaCadastro = new LogarUsuario;
-$buscaCadastro->verificar_existencia_de_usuario("tay@tay.com",'123123');
- $buscaCadastro->usuario;
+ 
 
  // print_r($buscaCadastro->usuario);
  // exit();
  
 //isso tambem foi só para fazer teste de conexão
- if($buscaCadastro->usuario = false){
-  render("arquivoRealizeLogin");
-  exit();
- }
+ // if($buscaCadastro->usuario = false){
+ //  render("arquivoRealizeLogin");
+ //  exit();
+ // }
 
 // isso é para fazer:
 // chamar aki metodo do controller de tratamento de acesso e permissao que verifica se o usuario
@@ -34,16 +34,26 @@ $buscaCadastro->verificar_existencia_de_usuario("tay@tay.com",'123123');
  // render("arquivoRealizeLogin");
  //  exit();
 
-
-
-
-
- 
  // faz a chamada do lado de fora para o metodo que inicia tudo
  // de tido estiver ok,é o primeiro passo da aplicação
+
+
+if(isset($_SESSION['logado'])){
+
+date_default_timezone_set('America/Sao_Paulo');
+
+ $data = date("Y-m-d");
+ $horario = date('H:i:s');
+
+ $buscaCadastro = new RegistraInformacoesAcesso;
+       $buscaCadastro->registra_acesso($_SESSION['logado'][0],$data,$horario);
+
+
 $inicio= new Formata();
 $inicio->validate($arquivoFile,$senhaInicial,$nomeBreveCurso,$nomeGrupo); 
-
+}else{
+  render("arquivoRealizeLogin");
+}
 
 
 Class Formata {
