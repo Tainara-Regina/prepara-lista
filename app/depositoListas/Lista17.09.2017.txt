@@ -1,0 +1,34 @@
+username,password,firstname,lastname,course1,email,profile_field_CPF
+28164312827,sms,Ana,Paula Alexandre,sdadasdasd,ana-morena-2@hotmail.com,28164312827
+13628099854,sms,Andreia,Cardoso da Silva,sdadasdasd,andreia_2007_acs@hotmail.com,13628099854
+33595650883,sms,Bruna,Alves Rodrigues,sdadasdasd,bruna.alves23@yahoo.com.br,33595650883
+66635977449,sms,Cleide,Maria de Oliveira,sdadasdasd,cleidemaria1900@gmail.com,66635977449
+35156779840,sms,Dayane,Costa Rodrigues,sdadasdasd,dayane.r847@gmail.com,35156779840
+09105976855,sms,Deolinda,Simoes dos Reis,sdadasdasd,deosimoes_reis@hotmail.com,09105976855
+10339534826,sms,Edna,Cristna da Silva,sdadasdasd,rockedna@ig.com.br,10339534826
+34848000890,sms,Ercilia,Aparecida de Oliveira,sdadasdasd,erciliaoliveira@yahoo.com.br,34848000890
+26581622869,sms,Gilciney,Andrade Rabello,sdadasdasd,gillciney@yahoo.com.br,26581622869
+03116490503,sms,Laricia,Couto Fernandes,sdadasdasd,laracouto05@gmail.com,03116490503
+36020491838,sms,Leticia,Luiz dos Santos,sdadasdasd,leticiall060@gmail.com,36020491838
+34867573850,sms,Lilian,Andressa Cipriano Oliveira,sdadasdasd,uiris.familiaoliveira2011@gmail.com,34867573850
+13431837824,sms,Luana,de Oliveira Santos,sdadasdasd,luanaoliveira72@gmail.com,13431837824
+30103241892,sms,Lucileine,Aleixo,sdadasdasd,aleixolucileine@gmail.com,30103241892
+30705084809,sms,Maira,Cristina Pinheiro da Silva,sdadasdasd,mematheusheitor27@hotmail.com,30705084809
+33690777879,sms,Maria,Josã‰ Rodrigues Martins,sdadasdasd,maria.dab2@hotmail.com,33690777879
+13010202814,sms,Neuza,de Sousa Araujo,sdadasdasd,ingridgjacob@hotmail.com,13010202814
+36129875851,sms,Raphael,de Oliveira Santos,sdadasdasd,raphaelsantos.edu@hotmail.com,36129875851
+08457683870,sms,Rosana,Camilo Ferreira Silva,sdadasdasd,r.osana_camilo@hotmail.com,08457683870
+24647094847,sms,Rosana,Lourenco Nunes,sdadasdasd,rosana.lou@bol.com.br,24647094847
+18901686880,sms,Rosemeire,Caldeira Souza,sdadasdasd,rosemeirecaldeirasouza@yahoo.com,18901686880
+13005020886,sms,Sandra,Regina Celotto Cerasso,sdadasdasd,sandracelotto@yahoo.com.br,13005020886
+27557380819,sms,Selma,Vieira,sdadasdasd,selmavieira.olga@gmail.com,27557380819
+32335239805,sms,Silmara,Maria de Lima,sdadasdasd,silmara_lima_24@yahoo.com.br,32335239805
+30943691893,sms,Silvana,Menezes Marcolino,sdadasdasd,silvanamarcolino@globomail.com,30943691893
+31673071880,sms,Sirlei,de Jesus Martins,sdadasdasd,sirleimartins47@hotmail.com,31673071880
+27242299837,sms,Solange,de Jesus Silva,sdadasdasd,solanginha.siilva@gmail.com,27242299837
+15408045854,sms,Suzete,Rita da Silva Santos,sdadasdasd,suzeteritadasilva@gmail.com,15408045854
+33315481890,sms,Tamara,Elis Santos dos Reis,sdadasdasd,tamaraelis@hotmail.com,33315481890
+37453463866,sms,Tamires,Mirele da Silva,sdadasdasd,mirele_tami@hotmail.com,37453463866
+36935064856,sms,Thamires,dos Santos Ribeiro,sdadasdasd,thamires.miri87@gmail.com,36935064856
+36173753839,sms,Thiago,Henrique Silva,sdadasdasd,henriquesilvathiago@yahoo.com.br,36173753839
+35174728837,sms,Vanessa,Rodrigues de Souza Silva,sdadasdasd,van.silvarodrigues398@gmail.com,35174728837

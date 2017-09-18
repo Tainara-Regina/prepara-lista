@@ -21,7 +21,7 @@ try{
 	 $this->usuario = false;
 }
 }catch (Exception $ex) {
-               echo "Falha na busca.Erro->$ex";
+               echo "Falha na busca. Erro->$ex";
                   }  
   
 

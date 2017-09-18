@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,6 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="app/JavaScript/validação_dos_campos.js" type="text/javascript"></script>
+  <script src="app/JavaScript/render.js" type="text/javascript"></script>
   <link href="app/css/home.css" rel="stylesheet" type="text/css"/>
   <link href="app/css/login_modal.css" rel="stylesheet" type="text/css"/>
   
@@ -18,7 +24,8 @@
   var arquivoFile1 = $('#arquivoFile')[0].files[0]; 
   var nomeBreveCurso1 = $('#nomeBreveCurso').val();
   var senhaInicial1 = $('#senhaInicial').val();
- 
+  var senha = $('#senha').val();
+ var email = $('#email').val();
             if(document.getElementById("nomeGrupo").value !== ""){
             var nomeGrupo1 = $('#nomeGrupo').val();    
             }
@@ -27,6 +34,8 @@ form = new FormData();
 form.append('arquivoFile', arquivoFile1);
 form.append('nomeBreveCurso', nomeBreveCurso1);
 form.append('senhaInicial', senhaInicial1);
+form.append('senha', senha);
+form.append('email', email);
 
     if(document.getElementById("nomeGrupo").value !== ""){
        form.append('nomeGrupo', nomeGrupo1);    
@@ -97,13 +106,14 @@ $.ajax({
 
 
         <div class="col-sm-12 menu_fixed">
-        <p id="myBtn">Login</p> 
+        <p id="myBtn"> <?php if(isset($_SESSION['logado'])){
+         echo "Logado"; }else{ echo "Realize o login";} ?></p> 
             <div class="menu ">
             <ul>
                 <a href="#vamos_começar"><li>Formatar Lista</li></a>
                 <a href="#instrucoes"><li>Instruções</li></a>
                 <a><li>Sobre</li></a>
-               <a> <li>Contato</li></a>
+               <a href="logar_base/validar_login"><li>Contato</li></a>
             </ul>
           </div>        
             <div class="versao_beta"><p>Formata Lista versão BETA</p> </div>
@@ -173,8 +183,8 @@ seja reconhecida. Exemplo de lista: </p>
       <h1 class="text-center"> <img src="app/viewers/img/light-bulb (1).png" alt=""/>Vamos começar!</h1>
                  
             
-            
-      <form name="form" id="form" action="status/arquivoIrregular" method="post" enctype="multipart/form-data">
+             <form name="form" id="form" action="status/arquivoIrregular" method="post" enctype="multipart/form-data">
+    
   <div class="form-group margin">
     <label for="exampleInputEmail1">Nome breve do curso</label>
     <input type="text" class="form-control" name="nomeBreveCurso" id="nomeBreveCurso" placeholder="Insira o nome breve do Curso" required>
