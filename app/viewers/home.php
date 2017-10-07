@@ -107,13 +107,13 @@ $.ajax({
 
         <div class="col-sm-12 menu_fixed">
         <p id="myBtn"> <?php if(isset($_SESSION['logado'])){
-         echo "Logado"; }else{ echo "Realize o login";} ?></p> 
+         echo "Deslogar"; }else{ echo "Realize o login";} ?></p> 
             <div class="menu ">
             <ul>
                 <a href="#vamos_começar"><li>Formatar Lista</li></a>
                 <a href="#instrucoes"><li>Instruções</li></a>
                 <a><li>Sobre</li></a>
-               <a href="logar_base/validar_login"><li>Contato</li></a>
+               <a href="#" ><li>Contato</li></a>
             </ul>
           </div>        
             <div class="versao_beta"><p>Formata Lista versão BETA</p> </div>
@@ -130,8 +130,9 @@ $.ajax({
     
       <h1 class="text-center margin">Bem vindo!</h1>
       <p> Aqui é possível realizar a formatação dos dados da lista de alunos automaticamente para um 
-          tipo reconhecido pela plataforma Moodle. Este site é o produto final do Trabalho
-          de Conclusão de Curso realizado por Tainara Regina para a obtenção do grau de 
+          tipo reconhecido pela plataforma Moodle. Este site e este programa foram desenvolvido por Tainara Regina e
+           são o produto final de seu Trabalho
+          de Conclusão de Curso para a obtenção do grau de 
           Bacharel em Ciência da Computação.</p>
     </div>
             
@@ -235,8 +236,10 @@ seja reconhecida. Exemplo de lista: </p>
           </div>
         </div>
         
-            <footer> <div class="ass"  > <p>  © Developed by Tainara Regina ♥ </p> </div></footer>
+            <footer> <div class="ass"  > <a href="#" onclick= "window.open('http://www.google.com.br');"><p>  © Developed by Tainara Regina ♥ </p> </a> </div></footer>
             </div>
         
         </body>
 </html>
+
+

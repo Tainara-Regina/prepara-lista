@@ -17,6 +17,13 @@ echo strip_tags("false");
 	  }
      }
 
+
+     public function deslogar(){
+         unset( $_SESSION['logado'][0]); 
+         session_destroy();
+         echo strip_tags("true");
+     }
+
 }
 
 ?>
