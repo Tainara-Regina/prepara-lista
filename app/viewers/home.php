@@ -236,7 +236,7 @@ seja reconhecida. Exemplo de lista: </p>
           </div>
         </div>
         
-            <footer> <div class="ass"  > <a href="#" onclick= "window.open('http://www.google.com.br');"><p>  © Developed by Tainara Regina ♥ </p> </a> </div></footer>
+            <footer> <div class="ass"  > <a href="#" onclick= "window.open('http://www.gunter.esy.es');"><p>  © Developed with ♥ by Tainara Regina  </p> </a> </div></footer>
             </div>
         
         </body>
